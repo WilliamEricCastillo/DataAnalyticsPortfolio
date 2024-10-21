@@ -6,6 +6,13 @@ from urllib.error import URLError
 st.set_page_config(page_title="Sales Dashboard", page_icon="📊", layout="wide")
 
 st.markdown("# Sales Dashboard")
+
+st.markdown("""
+    <div>
+Welcome to the Sales Dashboard, where you can explore and analyze sales data from various cities! This interactive dashboard provides insights into sales performance across different product lines and allows you to visualize trends over time.
+    </div>
+""", unsafe_allow_html=True)
+
 st.divider()
 
 

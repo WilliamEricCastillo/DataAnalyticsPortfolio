@@ -20,7 +20,7 @@ def get_UN_data(file_path):
 
 
 try:
-    df = get_UN_data("/Users/willcastle/Desktop/supermarket_sales.csv")
+    df = get_UN_data("pages/CSVFiles/supermarket_sales.csv")
 
     df['Total'] = df['Total'].round(0)
     df['gross income'] = df['gross income'].round(2)
